@@ -55,9 +55,13 @@ public class QuestionNo3 {
 	
 	public static void main(String[] args) {
 		
-		Books books = new Books("Harry Potter", "satyajit", true);
+		Books books1 = new Books("Harry Potter", "satyajit", false);
+		Books books2 = new Books("xyz", "abcd", false);
+		Books books3 = new Books("asdf", "dfgh", false);
 	
-		System.out.println(books.getTitle());
+		System.out.println(books1.getTitle());
+		System.out.println(books2.getTitle());
+		System.out.println(books3.getTitle());
 		
 		Books.showTotalIssued();
 	}
