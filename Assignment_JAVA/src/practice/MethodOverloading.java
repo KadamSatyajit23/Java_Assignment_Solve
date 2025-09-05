@@ -26,6 +26,7 @@ public class MethodOverloading {
 		
 		Calculator calculator = new Calculator(10,20);
 		
+		System.out.println(calculator);
 		System.out.println("Welocome...");
 	
 		
