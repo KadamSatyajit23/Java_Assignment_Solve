@@ -16,7 +16,7 @@ class BankAccount{
 	
 	public void withdraw(double amount) {
 		
-		if(amount > 0) {
+		if(amount >= 0) {
 			if(amount <=balance) {
 				balance = balance - amount;
 				System.out.println("WithDrawn amount : " + amount);
@@ -41,8 +41,8 @@ public class BankAccountProtection_Q1 {
 		
 		BankAccount bankAccount = new BankAccount();
 		
-		bankAccount.deposite(5000);
-		bankAccount.withdraw(2000);
+		bankAccount.deposite(6000);
+		bankAccount.withdraw(000);
 		
 		System.out.println(bankAccount.getBalance());
 	}
